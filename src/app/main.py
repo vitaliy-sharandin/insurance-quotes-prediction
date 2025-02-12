@@ -1,3 +1,5 @@
+"""This is POC model API."""
+
 from fastapi import FastAPI
 import joblib
 import pandas as pd

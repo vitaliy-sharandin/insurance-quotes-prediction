@@ -1,0 +1,49 @@
+[project]
+name = "pib-group-solution"
+version = "0.1.0"
+description = "PIB Group Test solution"
+authors = [
+    { name = "Vitaliy Sharandin", email = "vitaliy.sharandin@gmail.com" },
+]
+requires-python = ">=3.12"
+
+dependencies = [
+    "ydata-profiling==4.12.2",
+    "ipywidgets",
+    "scikit-learn==1.6.1",
+    "boruta==0.4.3",
+    "feature-engine==1.8.3",
+    "seaborn==0.13.2",
+    "xgboost==2.1.4",
+    "imbalanced-learn==0.13.0",
+    "optuna==4.1.0",
+    "ipykernel==6.15.2",
+    "nbconvert==7.16.6",
+    "mlflow==2.20.1",
+    "fastapi[standard]"
+]
+
+# [tool.uv.sources]
+# torch = { index = "pytorch-cu124" }
+# torchvision = { index = "pytorch-cu124" }
+
+# [[tool.uv.index]]
+# name = "pytorch-cu124"
+# url = "https://download.pytorch.org/whl/cu124"
+# explicit = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["pib-group-solution"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff.lint]
+select = ["ALL"]
+
+[tool.ruff.format]
+indent-style = "space"
+
+[tool.ruff]
+line-length = 120

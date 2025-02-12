@@ -17,7 +17,7 @@
 ## Model distribution
 Model will be saved under `src/app/target` in `model.pkl` file
 
-## Model serving
+## Model serving POC endpoint
 - `cd src`
 - `uv run fastapi dev`
 

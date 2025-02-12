@@ -17,9 +17,8 @@
 ## Model distribution
 Model will be saved under `src/app/target` in `model.pkl` file
 
-## Model serving POC endpoint
-- `cd src`
-- `uv run fastapi dev`
+## Model serving FastAPI endpoint(POC)
+- `uv --directory src run fastapi dev`
 
 ## Docker build and run
 - `docker build -t quote-classifier-app .`

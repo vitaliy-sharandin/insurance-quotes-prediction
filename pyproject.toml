@@ -1,7 +1,7 @@
 [project]
-name = "pib-group-solution"
+name = "insurance-quotes-prediction"
 version = "0.1.0"
-description = "PIB Group Test solution"
+description = "Insurance quotes prediction"
 authors = [
     { name = "Vitaliy Sharandin", email = "vitaliy.sharandin@gmail.com" },
 ]
@@ -31,9 +31,6 @@ dependencies = [
 # name = "pytorch-cu124"
 # url = "https://download.pytorch.org/whl/cu124"
 # explicit = true
-
-[tool.hatch.build.targets.wheel]
-packages = ["pib-group-solution"]
 
 [build-system]
 requires = ["hatchling"]

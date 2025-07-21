@@ -1,4 +1,4 @@
-# PIB Group Test Solution
+# Insurance quotes prediction
 
 ## Prerequisites
 - Python >=3.12
@@ -9,7 +9,7 @@
 - Run `uv sync` from root of project
 - Select the .venv created by uv as your runtime for jupyter file and run it
 <br/>**OR**
-- Run command `uv run jupyter nbconvert --to script --stdout --execute .\src\pib-group-solution.ipynb`
+- Run command `uv run jupyter nbconvert --to script --stdout --execute .\src\insurance-quotes-prediction.ipynb`
 
 ## Experiment tracking
 - The notebook contains automatic `MLFlow` server launch and best experiment results tracking.

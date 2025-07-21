@@ -773,6 +773,43 @@ wheels = [
 ]
 
 [[package]]
+name = "insurance-quotes-prediction"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "boruta" },
+    { name = "fastapi", extra = ["standard"] },
+    { name = "feature-engine" },
+    { name = "imbalanced-learn" },
+    { name = "ipykernel" },
+    { name = "ipywidgets" },
+    { name = "mlflow" },
+    { name = "nbconvert" },
+    { name = "optuna" },
+    { name = "scikit-learn" },
+    { name = "seaborn" },
+    { name = "xgboost" },
+    { name = "ydata-profiling" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "boruta", specifier = "==0.4.3" },
+    { name = "fastapi", extras = ["standard"] },
+    { name = "feature-engine", specifier = "==1.8.3" },
+    { name = "imbalanced-learn", specifier = "==0.13.0" },
+    { name = "ipykernel", specifier = "==6.15.2" },
+    { name = "ipywidgets" },
+    { name = "mlflow", specifier = "==2.20.1" },
+    { name = "nbconvert", specifier = "==7.16.6" },
+    { name = "optuna", specifier = "==4.1.0" },
+    { name = "scikit-learn", specifier = "==1.6.1" },
+    { name = "seaborn", specifier = "==0.13.2" },
+    { name = "xgboost", specifier = "==2.1.4" },
+    { name = "ydata-profiling", specifier = "==4.12.2" },
+]
+
+[[package]]
 name = "ipykernel"
 version = "6.15.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1475,43 +1512,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/f8/c2/c89371bb805f9801929ceb70730604fc35a4f4a26f0a4a55f85af7075d12/phik-0.12.4-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:b6ba2fa65c4b2a3c36aded0f47333c3069c0520bb426c3f937656a58a5041957", size = 655652 },
     { url = "https://files.pythonhosted.org/packages/9c/50/bb6a9f9cff78f88c10608bd0b7dd77b335c2388746132c3b2abb910f2021/phik-0.12.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3868a8f9277ab338eacb634bb06dd83278344dc19154f77e06c9cb8712959404", size = 687247 },
     { url = "https://files.pythonhosted.org/packages/eb/12/720f5c721df98c718b22bc15da93efb32b1ed5371da75874827a3bb8af7d/phik-0.12.4-cp312-cp312-win_amd64.whl", hash = "sha256:247ea90b2d067bb360e798e5645dbcea7753b3bf78436287d92247285c4aa58a", size = 666426 },
-]
-
-[[package]]
-name = "pib-group-solution"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "boruta" },
-    { name = "fastapi", extra = ["standard"] },
-    { name = "feature-engine" },
-    { name = "imbalanced-learn" },
-    { name = "ipykernel" },
-    { name = "ipywidgets" },
-    { name = "mlflow" },
-    { name = "nbconvert" },
-    { name = "optuna" },
-    { name = "scikit-learn" },
-    { name = "seaborn" },
-    { name = "xgboost" },
-    { name = "ydata-profiling" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "boruta", specifier = "==0.4.3" },
-    { name = "fastapi", extras = ["standard"] },
-    { name = "feature-engine", specifier = "==1.8.3" },
-    { name = "imbalanced-learn", specifier = "==0.13.0" },
-    { name = "ipykernel", specifier = "==6.15.2" },
-    { name = "ipywidgets" },
-    { name = "mlflow", specifier = "==2.20.1" },
-    { name = "nbconvert", specifier = "==7.16.6" },
-    { name = "optuna", specifier = "==4.1.0" },
-    { name = "scikit-learn", specifier = "==1.6.1" },
-    { name = "seaborn", specifier = "==0.13.2" },
-    { name = "xgboost", specifier = "==2.1.4" },
-    { name = "ydata-profiling", specifier = "==4.12.2" },
 ]
 
 [[package]]

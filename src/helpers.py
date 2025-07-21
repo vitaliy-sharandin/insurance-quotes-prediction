@@ -26,6 +26,3 @@ def start_mlflow_server():
         print(f"MLflow server started at http://127.0.0.1:{port}")
     else:
         print(f"MLflow server is already running on port {port}")
-
-
-start_mlflow_server()
